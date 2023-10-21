@@ -1,0 +1,133 @@
+:root{
+    --main-color:#fdc800;
+}
+.sec-col{
+    color: #002147;
+}
+.sec-bg-col{
+    background-color: #002147;
+}
+.about-head{
+    background-image: url('../img/others_bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 113px;
+    width: 100%;
+    
+}
+.head-content h1{
+    margin-top: 300px;
+    font-size: 90px;
+    font-weight: 700;
+}
+.head-content nav ol li a{
+    color: var(--main-color);
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.head-content nav ol .breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0;
+    padding-left: 0;
+    color: #6c757d;
+    content: "";
+    height: 10px;
+    width: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 22px;
+    margin-right: 17px;
+    margin-top: 15px;
+}
+
+.head-content nav ol li {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-area h2{
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #002147;
+    font-weight: 700;
+}
+.about-area p{
+    font-size: 14px;
+    color: #8a8a8a;
+    line-height: 30px;
+}
+
+.stud-opinion{
+    background-color: #f6f6f6;
+}
+
+.testimonilas-author-title {
+    margin-left: 15px;
+}
+
+.testimonilas-author-title h3 {
+    font-size: 16px;
+    color: #002147;
+    font-weight: 700;
+    line-height: 29px;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.testimonilas-author-title h4 {
+    font-size: 12px;
+    color: #8a8a8a;
+    margin: 0;
+    line-height: 1;
+}
+
+.testimonilas-para {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.testimonilas-para p {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0;
+}
+
+ul {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    border: 0;
+    height: 12px;
+    width: 12px;
+    text-indent: -9999px;
+    background: 0;
+    transition: .3s;
+    padding: 0;
+    border-radius: 50%;
+    transition: .3s;
+    border: 1px solid #fdc800;
+}
+
+.carousel-indicators .active {
+    background: #fdc800;
+    transition: .3s;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
